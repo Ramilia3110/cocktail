@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.content {
+  padding: 30px 20px;
+}
+ul {
+  list-style: none;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+form input {
+  min-width: 13rem;
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: 1px solid #e0fe9c;
+}
+
+form button,
+select {
+  padding: 10px 30px;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  border: none;
+}
+form button {
+  background-color: rgb(202, 152, 245);
+}
+
+select {
+  background-color: #e0fe9c;
+  padding: 0 15px;
+}
+
+#output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  padding: 30px 0;
+  flex: 0 1 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.card button {
+  padding: 10px 30px;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  border: none;
+  background-color: #a6eaff;
+}
+
+#popup {
+  display: none;
+  padding: 30px 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: rgb(166, 125, 203);
+  width: 80%;
+  height: auto;
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: all ease 2s;
+  cursor: pointer;
+}
+
+.cardD {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardD img {
+  width: 30rem;
+  border-radius: 25px;
+}

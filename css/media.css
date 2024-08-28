@@ -1,0 +1,10 @@
+/*small  laptop or desktop screen*/
+@media screen and (max-width: 1200px) {
+}
+
+/*tablet screen 992 or 1024*/
+@media screen and (max-width: 1024px) {
+}
+/*tablet screen 760 */
+@media screen and (min-width: 1025px) {
+}
